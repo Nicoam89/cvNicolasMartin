@@ -1,0 +1,50 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 1%;
+  }
+  
+/* Cabecera */
+  .titulo {
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #2bb36f;
+  }
+
+  .font-principal {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  .color-fondo {
+    background-color: #87898d;
+  }
+
+  .color-fondo-2 {
+    background-color: #2bb36f;
+  }
+
+  li{
+    list-style: none;
+
+  }
+
+  .logo-rectangular{
+      width: 20rem;
+
+  }
+
+  .logo-cuadrado{
+    height: 10rem;
+
+}
+
+  .imagen{
+    width: 35rem;
+  }
