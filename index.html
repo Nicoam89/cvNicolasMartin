@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Curriculum Vitae Nicolas Ariel Martin</title>
 </head>
@@ -31,28 +33,48 @@
         </section>
         <section class="font-principal color-fondo">
             <a href="./pages/porfolio.html">
-                <img class="imagen-2" src="./images/experiencia.jpg" alt="Experiencia">
+                <img class="imagen-2" src="./images/porfolio.png" alt="Porfolio">
                 <h4>Porfolio</h4>
             </a>
         </section>
         <section class="font-principal color-fondo">
-            <a href="./pages/aptitudes.html"></a>
+            <a href="./pages/aptitudes.html">
                 <img class="imagen-2" src="./images/aptitudes.jpg" alt="Aptitudes">
                 <h4>Aptitudes</h4>
             </a>
         </section>
         </div>
     </main>
-    <footer class="font-principal color-fondo-2">
-        <li><h3 class="subtitulo">Datos de Contacto</h3>
+   <footer class="font-principal color-fondo-2">
+        <li class="color-fondo">
+            <h3 class="subtitulo">Datos de Contacto</h3>
             <ul>
                 <li><a href="https://www.linkedin.com/in/nicolas-ariel-martin/" target="_blank">Linkedin</a></li>
                 <li> <a href="mailto:nico.am89@gmail.com">Mail</a></li>
-                <li>TELEFONO DE CONTACTO: 15-4058-4764</li>
-                <li>DIRECCION: Villa Raffo, Bs. As.</li> 
+                <li>Telefono: 15-4058-4764</li>
+                <li>Direccion: Villa Raffo, Bs. As.</li> 
             </ul>
         </li>
+        <form class="formulario color-fondo">
+            <h3 class="subtitulo"> Formulario de Contacto</h3>
+            <div>
+                <label class="nombre-formulario" for="nombre">Nombre y Apellido</label>
+                <input type="text">
+            </div>
+            <div>
+                <label class="mail-formulario" for="mail">E-Mail</label>
+                <input type="email">
+            </div>
+            <div>
+               <label for="mensaje">Mensaje</label>
+                <input class="mensaje-formulario" type="text">
+            </div>
+            <button onclick="">Enviar</button>
+        </form>
+
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
 </body>
 
 </html>

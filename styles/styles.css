@@ -8,7 +8,7 @@
     box-sizing: border-box;
     text-decoration: none;
     padding: 1%;
-    border-radius: 15px
+    border-radius: 15px;
   }
   
 
@@ -26,10 +26,11 @@
 
   }
 
+
 /* Colores Fondo */
   
   .color-fondo {
-    background-color: #87898d;
+    background-color: #222222;
   }
 
   .color-fondo-2 {
@@ -81,9 +82,41 @@
 
 .item{
   margin: 1.5%;
+}
+
+
+/* Footer*/
+
+footer{
+  text-align: center;
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  text-align: center;
+  margin: 1%;
+}
+
+.mensaje-formulario{
+  width: 50rem;
+  height: 15rem;
 
 }
 
+.nombre-formulario{
+  width: 40rem;
+
+}
+
+.mail-formulario{
+  width: 40rem;
+
+}
 
 /* Home */
 
@@ -169,5 +202,13 @@
     ". .";
     text-align: center;
   padding: 2%;  
+
+}
+
+
+/* Navegador */
+
+.item-nav{
+  margin: 1%;
 
 }
