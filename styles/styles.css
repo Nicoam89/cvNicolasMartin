@@ -8,6 +8,7 @@
     box-sizing: border-box;
     text-decoration: none;
     padding: 1%;
+    border-radius: 15px
   }
   
 
@@ -58,11 +59,13 @@
 
   .logo-rectangular{
       width: 20rem;
+      border-radius: 15px
 
   }
 
   .logo-cuadrado{
     height: 10rem;
+    border-radius: 15px
 
 }
 
@@ -75,6 +78,11 @@
     padding-top: 1%;
     background-color: #2bb36f;
   }
+
+.item{
+  margin: 1.5%;
+
+}
 
 
 /* Home */
@@ -99,6 +107,7 @@
 
 .imagen-2{
     width: 35rem;
+    border-radius: 15px;
   }
 
 /* Otras Paginas */
@@ -113,7 +122,7 @@
   text-align: center;
   padding: 3%;
   background-color: #87898d;
-  
+  border-radius: 15px
 }
 
 .subtitulo{
@@ -123,7 +132,7 @@
 
 /* Estudios */
 
-.estudios{
+.estudios-cursos{
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -143,6 +152,7 @@
 
   .imagen{
     width: 35rem;
+    border-radius: 15px
   }
 
 
