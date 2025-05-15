@@ -1,4 +1,7 @@
-/*Reset*/
+
+  /* Formato Principal */
+
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +10,8 @@
     padding: 1%;
   }
   
-/* Cabecera */
-  .titulo {
-    text-align: center;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    background-color: #2bb36f;
-  }
+
+  /* Fuentes */
 
   .font-principal {
     font-family: "Montserrat", sans-serif;
@@ -22,6 +20,13 @@
     color: white;
   }
 
+  .subtitulo{
+    font-style: bold;
+
+  }
+
+/* Colores Fondo */
+  
   .color-fondo {
     background-color: #87898d;
   }
@@ -30,10 +35,26 @@
     background-color: #2bb36f;
   }
 
+
+/* Listas */
+
   li{
     list-style: none;
 
   }
+
+/* Links */
+  a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+  a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Logos */
 
   .logo-rectangular{
       width: 20rem;
@@ -45,6 +66,95 @@
 
 }
 
+
+/* Cabecera */
+
+  .titulo {
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #2bb36f;
+  }
+
+
+/* Home */
+
+.resumen-home{
+  text-align: center;
+
+}
+
+.menu-index {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."
+    ". ."; 
+
+    text-align: center;
+
+}
+
+.imagen-2{
+    width: 35rem;
+  }
+
+/* Otras Paginas */
+
+.menu{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . ."; 
+  text-align: center;
+  padding: 3%;
+  background-color: #87898d;
+}
+
+.subtitulo{
+  text-align: center;
+
+}
+
+/* Estudios */
+
+.estudios{
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". ."; 
+  text-align: center;
+
+}
+
+/* Certificados */
+
   .imagen{
     width: 35rem;
   }
+
+
+
+  /* Porfolio */
+
+  .menu-porfolio {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". ."
+    ". .";
+    text-align: center;
+}
