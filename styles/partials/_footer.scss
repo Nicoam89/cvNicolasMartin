@@ -1,0 +1,38 @@
+/* Footer*/
+
+footer{
+  text-align: center;
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  text-align: center;
+  margin: 1%;
+}
+
+.mensaje-formulario{
+  width: 90%;
+  height: 15rem;
+
+}
+
+.nombre-formulario{
+  width: 40rem;
+
+}
+
+.mail-formulario{
+  width: 40rem;
+
+}
+
+@media (min-width: 576px) { 
+  .mensaje-formulario {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,214 +1,167 @@
-
-  /* Formato Principal */
-
+/* Formato Principal */
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 1%;
-    border-radius: 15px;
-  }
-  
-
-  /* Fuentes */
-
-  .font-principal {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-  }
-
-  .subtitulo{
-    font-style: bold;
-
-  }
-
-
-/* Colores Fondo */
-  
-  .color-fondo {
-    background-color: #222222;
-  }
-
-  .color-fondo-2 {
-    background-color: #2bb36f;
-  }
-
-
-/* Listas */
-
-  li{
-    list-style: none;
-
-  }
-
-/* Links */
-  a:visited {
-    text-decoration: none;
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 1%;
+  border-radius: 15px;
 }
 
-  a {
-    text-decoration: none;
-    color: white;
+/* Colores Fondo */
+.color-fondo {
+  background-color: #222222;
+}
+
+.color-fondo-2 {
+  background-color: #2baab3;
+}
+
+/* Fuentes */
+.font-principal {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.subtitulo {
+  font-style: bold;
+}
+
+/* Listas */
+li {
+  list-style: none;
+}
+
+/* Links */
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* Logos */
-
-  .logo-rectangular{
-      width: 20rem;
-      border-radius: 15px
-
-  }
-
-  .logo-cuadrado{
-    height: 10rem;
-    border-radius: 15px
-
+.logo-rectangular {
+  width: 20rem;
+  border-radius: 15px;
 }
 
-
-/* Cabecera */
-
-  .titulo {
-    text-align: center;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    background-color: #2bb36f;
-  }
-
-.item{
-  margin: 1.5%;
-}
-
-
-/* Footer*/
-
-footer{
-  text-align: center;
-}
-
-.formulario{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-  text-align: center;
-  margin: 1%;
-}
-
-.mensaje-formulario{
-  width: 50rem;
-  height: 15rem;
-
-}
-
-.nombre-formulario{
-  width: 40rem;
-
-}
-
-.mail-formulario{
-  width: 40rem;
-
-}
-
-/* Home */
-
-.resumen-home{
-  text-align: center;
-
-}
-
-.menu-index {
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 20px 20px;
-  grid-template-areas: 
-    ". ."
-    ". ."; 
-
-  text-align: center;
-  margin: 2%;
-}
-
-.imagen-2{
-    width: 35rem;
-    border-radius: 15px;
-  }
-
-/* Otras Paginas */
-
-.menu{
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr; 
-  gap: 10px 10px;
-  grid-template-areas: 
-    ". . . ."; 
-  text-align: center;
-  padding: 3%;
-  background-color: #87898d;
-  border-radius: 15px
-}
-
-.subtitulo{
-  text-align: center;
-
-}
-
-/* Estudios */
-
-.estudios-cursos{
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
-  gap: 10px 10px;
-  grid-template-areas: 
-    ". ."
-    ". ."
-    ". ."
-    ". ."
-    ". ."
-    ". ."; 
-  text-align: center;
-  padding: 2%; 
+.logo-cuadrado {
+  height: 10rem;
+  border-radius: 15px;
 }
 
 /* Certificados */
-
-  .imagen{
-    width: 35rem;
-    border-radius: 15px
-  }
-
-
-
-  /* Porfolio */
-
-  .menu-porfolio {  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px 10px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". ."
-    ". .";
-    text-align: center;
-  padding: 2%;  
-
+.imagen {
+  width: 35rem;
+  border-radius: 15px;
 }
 
+/* Imagenes */
+.imagen-2 {
+  width: 35rem;
+  border-radius: 15px;
+}
+
+/* Cabecera */
+.titulo {
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: #2baab3;
+}
+
+.item {
+  margin: 1.5%;
+}
+
+/* Footer*/
+footer {
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 1%;
+}
+
+.mensaje-formulario {
+  width: 90%;
+  height: 15rem;
+}
+
+.nombre-formulario {
+  width: 40rem;
+}
+
+.mail-formulario {
+  width: 40rem;
+}
+
+@media (min-width: 576px) {
+  .mensaje-formulario {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Home */
+.resumen-home {
+  text-align: center;
+}
+
+.menu-index {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  text-align: center;
+  margin: 1%;
+  padding: 2%;
+}
+
+@media (min-width: 576px) {
+  .menu-index {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.tarjeta {
+  padding: 3%;
+}
+
+/* Otras Paginas */
+.menu {
+  padding: 2%;
+}
+
+/* Estudios */
+.estudios-cursos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas: ". ." ". ." ". ." ". ." ". ." ". .";
+  text-align: center;
+  padding: 2%;
+}
+
+/* Porfolio */
+.menu-porfolio {
+  padding: 2%;
+}
 
 /* Navegador */
-
-.item-nav{
+.item-nav {
   margin: 1%;
-
-}
+}/*# sourceMappingURL=styles.css.map */
