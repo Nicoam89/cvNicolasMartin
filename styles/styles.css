@@ -61,6 +61,7 @@ a {
 .imagen {
   width: 35rem;
   border-radius: 15px;
+  text-align: center;
 }
 
 /* Imagenes */
@@ -131,9 +132,10 @@ footer {
   padding: 2%;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .menu-index {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 .tarjeta {
@@ -148,20 +150,36 @@ footer {
 /* Estudios */
 .estudios-cursos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   gap: 10px 10px;
-  grid-template-areas: ". ." ". ." ". ." ". ." ". ." ". .";
   text-align: center;
   padding: 2%;
 }
 
+@media (max-width: 576px) {
+  .estudios-cursos {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11, 1fr);
+    gap: 10px 10px;
+    padding: 2%;
+  }
+}
 /* Porfolio */
 .menu-porfolio {
   padding: 2%;
 }
 
+.item {
+  text-align: center;
+}
+
 /* Navegador */
 .item-nav {
   margin: 1%;
+}
+
+.item-nav:hover {
+  background-color: #34d3d8;
+  color: black;
 }/*# sourceMappingURL=styles.css.map */
