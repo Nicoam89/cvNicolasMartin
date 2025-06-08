@@ -50,6 +50,7 @@ a {
 .logo-rectangular {
   width: 20rem;
   border-radius: 15px;
+  text-align: left;
 }
 
 .logo-cuadrado {
@@ -145,6 +146,15 @@ footer {
 /* Otras Paginas */
 .menu {
   padding: 2%;
+}
+
+.experiencia {
+  text-align: center;
+}
+
+.detalle-experiencia {
+  text-align: justify;
+  width: 60%;
 }
 
 /* Estudios */
