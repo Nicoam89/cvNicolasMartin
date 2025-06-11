@@ -71,21 +71,6 @@ a {
   border-radius: 15px;
 }
 
-.scale-in-hor-center {
-  animation: scale-in-hor-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
-}
-
-/* animation scale-in-hor-center */
-@keyframes scale-in-hor-center {
-  0% {
-    transform: scaleX(0);
-    opacity: 1;
-  }
-  100% {
-    transform: scaleX(1);
-    opacity: 1;
-  }
-}
 /* Cabecera */
 .titulo {
   text-align: center;
@@ -103,6 +88,7 @@ footer {
   text-align: center;
 }
 
+/* Formulario de Contacto */
 .formulario {
   display: flex;
   flex-direction: column;
@@ -157,11 +143,12 @@ footer {
   padding: 3%;
 }
 
+/* animation scale-in-ver-center */
 .scale-in-ver-center {
   animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-/* animation scale-in-ver-center */
+/* Keyfreame Animaciones */
 @keyframes scale-in-ver-center {
   0% {
     transform: scaleY(0);
@@ -177,6 +164,7 @@ footer {
   padding: 2%;
 }
 
+/* Experiencia */
 .experiencia {
   text-align: center;
 }
